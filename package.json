@@ -1,0 +1,26 @@
+{
+  "name": "tf2items",
+  "version": "1.0.0",
+  "description": "Handy tool that gets all TF2 Item objects and proper names.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TomYoki/node-tf2items.git"
+  },
+  "keywords": [
+    "TF2",
+    "Steam",
+    "Team Fortress",
+    "Team Fortress 2",
+    "Schema"
+  ],
+  "author": "TomYoki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TomYoki/node-tf2items/issues"
+  },
+  "homepage": "https://github.com/TomYoki/node-tf2items#readme",
+  "dependencies": {
+    "request": "^2.85.0"
+  }
+}
