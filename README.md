@@ -13,7 +13,7 @@ This tool lets you easily find all TF2 items, with their images, proper names & 
 
 
 ## Usage
-1. Require `/lib/items.js` file.
+1. Require `./lib` file.
 2. Create new instance of it and pass in object with Steam & backpack.tf API Key.
 3. Fetch items using `items.getItemList(start, callback(err, data));`.
 4. Fetch proper names using `items.getNames(callback(err, data));`.
