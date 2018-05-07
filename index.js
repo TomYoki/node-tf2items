@@ -16,6 +16,20 @@ items.getItemList(0, (err, data) => {
     if(err){
       throw err;
     }
+
+
+    // Will load 76561198190043849's inventory.
+    // ...whoever they may be.
+
+    items.getInventory("76561198190043849", (err, inventory) => {
+      if(err){
+        console.log(err);
+      } else {
+        console.log(inventory);
+      }
+    });
+
+
     // Find item named "Pistol"
     items.findItem("Pistol", (err, resp) => {
       if(err){
