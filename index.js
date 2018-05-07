@@ -1,4 +1,4 @@
-const TFItems = require('./lib/items.js');
+const TFItems = require('./lib');
 const items = new TFItems({steam: "YourSteamAPIKey", backpacktf: "YourBackpackTFAPIKey"});
 // Get your Steam API key from
 // https://steamcommunity.com/dev/apikey
